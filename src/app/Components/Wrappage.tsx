@@ -21,7 +21,11 @@ export default function Wrappage() {
   return (
     <div className="">
       <button
-        className="uppercase border-2 p-2 bottom-6 right-6 fixed transition-all duration-500 rounded-md hover:bg-blue-400   hover:font-bold hover:text-white hover:-translate-y-3"
+        className="uppercase border-2 p-2 bottom-6 right-6 fixed transition-all font-bold
+        duration-500 rounded-md hover:bg-blue-400   
+        hover:font-bold 
+        hover:text-white 
+        hover:-translate-y-2 "
         onClick={toggle}
       >
         Start task!
